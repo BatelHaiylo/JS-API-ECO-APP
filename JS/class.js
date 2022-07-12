@@ -131,10 +131,12 @@ function devices(event) {
   event.preventDefault()
   Objelement.print(devicesApi,'main')
 }
-
-function table(event) {
-    event.preventDefault()
-    Objelement.print(UserApi,'main')
+// function factory() {
+//     return Objelement.print(locationAPI,'main')
+//   }
+  
+function table() {
+    return Objelement.print(UserApi,'main')
 }
   
 function addUserTotable(event) {

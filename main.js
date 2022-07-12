@@ -6,7 +6,8 @@ function changeMainContent(event){
 
     let links = {
         '/JS/table.js':contributors,
-        '/JS/form.js':form,
+        '/JS/api.js':printLocation,
+        '/JS/class.js':table,
         '/JS/about.js':about,
         '/JS/userPage.js':userlogin,
         '/JS/contact.js':contact,

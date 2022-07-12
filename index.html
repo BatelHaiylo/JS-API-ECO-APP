@@ -25,18 +25,18 @@
                         <a class="nav-link" aria-current="page" href="index.html">HOME</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="/JS/table.js" onclick="userlogin(event)">contributors</a>
+                        <a class="nav-link" href="/JS/table.js" onclick="changeMainContent(event)">contributors</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="/HTML/proudects.html" onclick="userlogin(event)">PROUDECTS</a>
+                        <a class="nav-link" href="/JS/api.js" onclick="changeMainContent(event)">OUR FACTORIES</a>
                       <li class="nav-item">
-                        <a class="nav-link" href="/HTML/form.html" onclick="userlogin(event)">FORM</a>
+                        <a class="nav-link" href="/JS/class.js" onclick="changeMainContent(event)">FORM</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="/HTML/register.html" onclick="userlogin(event)">REGISTER</a>
+                        <a class="nav-link" href="/HTML/register.html" onclick="changeMainContent(event)">REGISTER</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="/HTML/contactus.html" onclick="userlogin(event)">CONTACT</a>
+                        <a class="nav-link" href="/HTML/contactus.html" onclick="changeMainContent(event)">CONTACT</a>
                       </li>
                     </ul>
                     <form class="d-flex px-5" role="search">
@@ -82,7 +82,7 @@
                       <input type="text" class="form-control" id="cityForm" placeholder="City, state, or zip" aria-label="City, state, or zip">
                     </div>
                   </div><br>
-                  <button type="button" class="btn btn-primary">Search</button>
+                  <button type="button" class="btn btn-primary" onclick="printLocation()">Search</button>
                 </div>
               </form>
   
@@ -114,9 +114,7 @@
         </div>
       </div>
         <hr class="main_section_space">
-        <h1 class="text-center p-3 bg-info text-dark ">"A garage sale is an informal event <br> for the sale of used goods by private individuals,<br>
-            in which sellers are not required to obtain business licenses or collect sales tax"</h1><br><br>
-        <h1>Why CELLSOL<i class="bi bi-recycle"></i>R?</h1><br>
+        <h1 class="text-center p-3 bg-primary text-dark ">Why CELLSOL<i class="bi bi-recycle"></i>R?</h1><br>
         <section  class=" d-flex justify-content-between p-3 text-center">
             <div><div>
                 <h3 id="y_us_1">People Powered</h3>
@@ -190,7 +188,7 @@
    </footer>        
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="main.js"></script>
+    <script src="/JS/api.js"></script>
     <script src="/JS/class.js"></script>
-    <script src="/JS/table.js"></script>
   </body>
 </html>
